@@ -18,7 +18,7 @@
     <div class="testbox">
     <form method="post" action="https://sheetdb.io/api/v1/knoullgx3h1ny" id="sheetdb-form">
       <div class="banner">
-        <h1><img src="./images/afyet LOGO white.png" alt="afyef_logo" class="logo"> AfYET Entrepreneurs Scheme Membership Registration Form</h1>
+        <h1><img src="./images/afyet LOGO white.png" alt="afyef_logo" class="logo"> AfYEF Entrepreneurs Scheme Membership Registration Form</h1>
       </div>
       <br/>
 
@@ -54,27 +54,27 @@
         <legend>Entrepreneurship Details</legend>
         <div class="columns">
           <div class="item">
-            <label for="Business Registration Number"> Business Registration Number<span>*</span></label>
+            <label for="Business Registration Number"> Business Registration Number</label>
             <input type="text" name="data[Business Registration Number]" />
           </div>
           <div class="item">
-            <label for="Business Name"> Buisness Name<span>*</span></label>
+            <label for="Business Name"> Business Name</label>
             <input type="text" name="data[Business Name]" />
           </div>
           <div class="item">
-            <label for="Business Email">Buisness Email<span>*</span></label>
+            <label for="Business Email">Business Email</label>
             <input type="email"   name="data[Business Email]" />
           </div>
           <div class="item">
-            <label for="Business Phone"> Business Phone<span>*</span></label>
+            <label for="Business Phone"> Business Phone</label>
             <input type="tel"   name="data[Business Phone]"/>
           </div>
           <div class="item">
-            <label for="MMSE Category">MSME Category<span>*</span></label>
+            <label for="MMSE Category">MMSE Category</label>
             <input type="text"   name="data[MMSE Category]" />
           </div>
           <div class="item" id="Busi-web">
-            <label for="Business Website Address">Business Website Address<span>*</span></label>
+            <label for="Business Website Address">Business Website Address</label>
             <input type="text"   name="data[Business Website Address]" />
           </div>
       </fieldset><br>
@@ -85,14 +85,14 @@
         <div class="columns">
           <div class="item">
             <label for="Surname"> Surname<span>*</span></label>
-            <input type="text" name="data[Surname]" />
+            <input type="text" name="data[Surname]" required/>
           </div>
           <div class="item">
             <label for="First Name"> First Name<span>*</span></label>
-            <input type="text" name="data[First Name]" />
+            <input type="text" name="data[First Name]" required/>
           </div>
           <div class="item">
-            <label for="Other Name(s)"> Other Name(s)<span>*</span></label>
+            <label for="Other Name(s)"> Other Name(s)</label>
             <input type="text"   name="data[Other Name(s)]" />
           </div>
           <div class="item">
@@ -101,12 +101,12 @@
           </div>
           <div class="item">
             <label for="Personal Email Address"> Personal Email Address<span>*</span></label>
-            <input type="email"   name="data[Personal Email Address]" />
+            <input type="email"   name="data[Personal Email Address]" required/>
           </div>
 
           <div class="item">
               <label for="Gender">Gender<span>*</span></label>
-              <select name="data[Gender]" class="nationality">
+              <select name="data[Gender]" class="nationality" required>
                 <option value="" disabled selected>Select your gender</option>
                 <option value="Male" >Male</option>
                 <option value="Female">Female</option>
@@ -114,7 +114,7 @@
           </div>
           <div class="item">
             <label for="Marital Status">Marital Status<span>*</span></label>
-            <select name="data[Marital Status]" class="nationality">
+            <select name="data[Marital Status]" class="nationality" required>
               <option value="" disabled selected>Select your marital status</option>
               <option value="Married" >Married</option>
               <option value="Separated">Separated</option>
@@ -123,7 +123,7 @@
             </select>
         </div>
         <div class="item">
-          <label for="Level of Education">Level of Education<span>*</span></label>
+          <label for="Level of Education">Level of Education</label>
           <select name="data[Level of Education]" class="nationality">
             <option value="" disabled selected>Level of education</option>
             <option value="Basic" >Basic</option>
@@ -140,7 +140,7 @@
         <legend>Birth History</legend>
         <div class="columns">
           <div class="item">
-            <label for="Date of Birth">Date of Birth <span>*</span></label>
+            <label for="Date of Birth">Date of Birth </label>
               <input type="date" name="data[Date of Birth]" />
             <i class="fas fa-calendar-alt"></i>
             </div>
@@ -663,7 +663,7 @@
           </div>
 
           <div class="item">
-              <label for="Current Occupation">Current Occupation<span>*</span></label>
+              <label for="Current Occupation">Current Occupation</label>
               <input type="text" name="data[Current Occupation]" placeholder="Job Title"> 
           </div>
           <div class="item">
